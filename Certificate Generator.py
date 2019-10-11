@@ -8,6 +8,7 @@ img = Image.open("image.jpg")
 font = ImageFont.truetype("Roboto-Black.ttf", 40)
 font1 = ImageFont.truetype("Roboto-Black.ttf", 25)
 draw=ImageDraw.Draw(img)
+# defining certificate look
 draw.text(xy=(400,400),text="Candidate Name",fill=(255,0,0),font=font)#insert name here.
 draw.text(xy=(190,640),text=date_string,fill=(255,69,0),font=font1)
 img.show()
